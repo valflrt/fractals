@@ -2,7 +2,10 @@ These are fractal renders I made using [my renderer](https://github.com/valflrt/
 
 This set of images is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0).
 
-<!-- END -->
+> No particular order here
+
+<!-- IMAGES -->
+
 ![arfxgq.png](././arfxgq.png)
 ![auebdm.png](././auebdm.png)
 ![dggeno.png](././dggeno.png)

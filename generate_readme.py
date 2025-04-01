@@ -3,7 +3,7 @@ import os
 IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg"}
 IMAGE_DIR = "fractals"
 README_FILE = "README.md"
-MARKER = "<!-- END -->"
+MARKER = "<!-- IMAGES -->"
 
 def generate_readme():
     existing_content = []
@@ -31,7 +31,7 @@ def generate_readme():
 
     with open(README_FILE, "w") as f:
         f.writelines(existing_content)
-        f.write(image_section + "\n")
+        f.write("\n" + image_section + "\n")
 
     print(f"{README_FILE} updated successfully")
 
