@@ -1,7 +1,7 @@
 import os
 
 IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg"}
-IMAGE_DIR = "."
+IMAGE_DIR = "fractals"
 README_FILE = "README.md"
 MARKER = "<!-- END -->"
 

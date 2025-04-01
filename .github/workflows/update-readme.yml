@@ -1,6 +1,10 @@
 name: Add new images to readme
 
-on: [push, workflow_dispatch]
+on:
+  push:
+    paths:
+      - "fractals/**"
+  workflow_dispatch:
 
 jobs:
   update-readme:
