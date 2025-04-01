@@ -1,0 +1,27 @@
+Frame((
+    img_width: 3840,
+    img_height: 2160,
+    zoom: 0.0000000012,
+    center_x: -1.996379056,
+    center_y: -0.000001102135,
+    rotate: Some(-6.28),
+    fractal: Mandelbrot,
+    max_iter: 3000,
+    coloring_mode: MinMaxNorm(
+        min: Custom(86.0),
+        max: Custom(3000.0),
+        map: Powf(0.25),
+    ),
+    sampling: (
+        level: Extreme1,
+        random_offsets: true,
+    ),
+    custom_gradient: Some([
+        (0.0, (230, 230, 240)),
+        (0.2, (60, 50, 90)),
+        (0.3, (230, 180, 180)),
+        (0.4, (100, 100, 140)),
+        (0.5, (60, 60, 90)),
+        (1.0, (220, 210, 220)),
+    ]),
+))
